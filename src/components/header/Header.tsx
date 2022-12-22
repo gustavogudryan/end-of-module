@@ -6,7 +6,7 @@ import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
 import { Link, useNavigate} from 'react-router-dom';
 import { useDispatch} from 'react-redux';
-import { setUserOff } from "../../store/usuariosSlice"
+import { setUserOff } from "../../store/modules/usuariosSlice"
 import { styled } from '@mui/material/styles';
 
 interface HeaderProps {

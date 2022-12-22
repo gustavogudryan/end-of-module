@@ -1,6 +1,6 @@
 import { combineReducers } from '@reduxjs/toolkit';
-import usuarios from './usuariosSlice'
-import recados from './recadosSlice'
+import usuarios from './modules/usuariosSlice'
+import recados from './modules/recadosSlice'
 
 
 const reducers={

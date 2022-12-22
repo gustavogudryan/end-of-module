@@ -3,9 +3,9 @@ import React, { useState } from "react"
 import { Box} from "@mui/material"
 import { Link, useNavigate } from "react-router-dom"
 import { styled } from '@mui/material/styles';
-import { setUserOn, User } from "../../store/usuariosSlice"
+import { setUserOn, User } from "../../store/modules/usuariosSlice"
 import { useDispatch,useSelector} from 'react-redux';
-import { userSelectAll} from "../../store/usuariosSlice"
+import { userSelectAll} from "../../store/modules/usuariosSlice"
 import ButtonLogin from "../../components/buttons/ButtonLogin";
 import InputForm from "../../components/inputForm/InputForm";
 

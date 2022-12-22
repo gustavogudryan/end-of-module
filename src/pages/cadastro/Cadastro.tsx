@@ -4,7 +4,7 @@ import { Box } from "@mui/material"
 import { Link, useNavigate } from "react-router-dom"
 import { styled } from '@mui/material/styles';
 import { useDispatch,useSelector} from 'react-redux';
-import { setNewUser, userSelectAll, UserState,User } from "../../store/usuariosSlice"
+import { setNewUser, userSelectAll, UserState,User } from "../../store/modules/usuariosSlice"
 import ButtonCadastro from "../../components/buttons/ButtonCadastro"
 import InputForm from "../../components/inputForm/InputForm";
 

@@ -15,7 +15,7 @@ import DeleteIcon from '@mui/icons-material/Delete';
 import EditIcon from '@mui/icons-material/Edit';
 import {FormControlLabel, Radio, RadioGroup } from '@mui/material';
 import { useDispatch} from 'react-redux';
-import { apagarRecado, editarRecado } from "../../store/recadosSlice";
+import { apagarRecado, editarRecado } from "../../store/modules/recadosSlice";
 import InputForm from "../inputForm/InputForm";
 import Box from '@mui/material/Box';
 import Modal from '@mui/material/Modal';

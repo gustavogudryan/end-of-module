@@ -1,5 +1,5 @@
 import {createSlice} from '@reduxjs/toolkit'
-import { CRUDState } from './rootReducer'
+import { CRUDState } from '../rootReducer'
 
 
 export type Recado = {

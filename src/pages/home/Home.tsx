@@ -2,7 +2,7 @@ import { Button, Stack } from "@mui/material"
 import React, {useState} from "react"
 import { useDispatch,useSelector} from 'react-redux';
 import { CRUDState } from "../../store/rootReducer"
-import { Recado, setNewRecado } from "../../store/recadosSlice"
+import { Recado, setNewRecado } from "../../store/modules/recadosSlice"
 import Header from "../../components/header/Header"
 import InputForm from "../../components/inputForm/InputForm"
 import ListaRecados from "../../components/listaRecados/ListaRecados";
